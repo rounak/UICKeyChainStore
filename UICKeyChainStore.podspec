@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "4.3"
   s.osx.deployment_target = "10.7"
+  s.watchos.deployment_target = '2.0'
   s.requires_arc          = true
 
   s.source_files          = "Lib/UICKeyChainStore/*.{h,m}"
